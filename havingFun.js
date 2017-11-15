@@ -1,5 +1,3 @@
-
-
 var fs = require('fs');
 var timestamp = new Date().toString(); var contents;
 fs.writeFileSync('date.txt', timestamp);
